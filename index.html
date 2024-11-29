@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A Floresta Proibida</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="game-container">
+    <h1>A Floresta Proibida</h1>
+    <p id="story">Você está perdido em uma floresta misteriosa. O que deseja fazer?</p>
+    <img id="scene-image" src="floresta.jpg" alt="Cenário inicial">
+    <div id="choices">
+      <button onclick="makeChoice('explorar')">Explorar a floresta</button>
+      <button onclick="makeChoice('descansar')">Descansar sob uma árvore</button>
+    </div>
+    <div id="inventory">
+      <h2>Inventário</h2>
+      <ul id="inventory-list"></ul>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
